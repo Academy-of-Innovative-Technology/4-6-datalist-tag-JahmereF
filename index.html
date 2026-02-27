@@ -43,10 +43,41 @@
 
 
   <!--exercise 2-->
+  <form action="#" method="POST">
+        <div>
+            <label for="city-input">Select or type a city:</label>
+            <input type="text" id="city-input" name="city" list="cities-datalist">
+            
+          
+            <datalist id="cities-datalist">
+                <option value="New York">
+                <option value="Chicago">
+                <option value="Baltimore">
+                <option value="Philadelphia">
+                <option value="Los Angeles">
+            </datalist>
+        </div>
+        <br>
+        <input type="submit">
+    </form>
 
 
   <!--exercise 3-->
+<form action="#" method="POST">
+    <label for="artist-choice">Select or type your favorite music artist:</label>
+    <input list="artists" id="artist-choice" name="artist-choice">
 
+    <datalist id="artists">
+        <option value="Eminem">
+        <option value="Beyoncé">
+        <option value="Kanye West">
+        <option value="Taylor Swift">
+        <option value="Bruno Mars">
+    </datalist>
+    
+    <br><br>
+    <input type="submit">
+</form>
 
 </body>
 
